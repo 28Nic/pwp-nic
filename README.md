@@ -1,2 +1,2 @@
 # pwp-nic
-My pwp project
+My personal website project for Deep Dive
