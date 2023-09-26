@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #FABFE0;
+    box-shadow: 10px 5px 10px #9C8B9C;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+ul {
+    list-style-type: "\1f9f6";
+}
+
+#purpose {
+    background-color: #EABFFA;
+    box-shadow: 10px 5px 10px #9C8B9C;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    margin: 2em;
+}
+#persona {
+    background-color: #FAE1BF;
+    box-shadow: 10px 5px 10px #9C8B9C;
+    padding: 0.75em;
+    border-radius: 0.5em;
+    margin: 2em;
+}
