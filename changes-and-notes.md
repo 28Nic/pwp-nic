@@ -20,9 +20,10 @@
 
 ## Fixes
 -  Hamburger icon to right on nav bar
+- Background opacity only
+- Can you add outline to text? Dropshadow not working?
 
 ## Working On Now
-- Banner with image
-  - placeholder image for now
+- About Me
 
 ## Notes
