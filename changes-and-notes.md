@@ -23,6 +23,6 @@
 
 ## Working On Now
 - Banner with image
-  - image placeholder for now
+  - placeholder image for now
 
 ## Notes
