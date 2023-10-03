@@ -22,8 +22,11 @@
 -  Hamburger icon to right on nav bar
 - Background opacity only
 - Can you add outline to text? Dropshadow not working?
+- Get header on separate line than paragraph
+- fix flex 
+- figure out how to resize image
 
 ## Working On Now
-- About Me
+- Lessons
 
 ## Notes
