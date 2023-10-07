@@ -25,8 +25,11 @@
 - Get header on separate line than paragraph
 - fix flex 
 - figure out how to resize image
+- Line up connect
+- Submit button styling
+- footer content center
 
 ## Working On Now
-- Lessons
+- Connect
 
 ## Notes
