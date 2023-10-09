@@ -26,12 +26,14 @@
     </div>
 </section>
 <!----ABOUT ME------->
-<section class="my-10 mx-4 bg-zinc-200 py-4 display flex">
-    <h2 class="block px-4 text-6xl">About Me</h2>
-    <p class="">
+<section class="my-10 mx-4 bg-zinc-200 py-4">
+    <h2 class="block px-4 py-4 text-6xl">About Me</h2>
+    <div class="display flex">
+    <p class="p-6">
         Don't forget to tell these special people in your life just how special they are to you. Let's build some happy little clouds up here. This is the time to get out all your frustrations, much better than kicking the dog around the house or taking it out on your spouse. Isn't that fantastic that you can create a tree that fast? Just let this happen. We just let this flow right out of our minds. There comes a nice little fluffer.
     </p>
-    <img src="https://placehold.co/200x250/purple/white" alt="purple placeholder box with white text of dimensions" class="float-right px-4">
+    <img src="https://placehold.co/200x250/purple/white" alt="purple placeholder box with white text of dimensions" class="float-right p-4">
+    </div>
 </section>
 <!----LESSONS--------->
 <section>
@@ -68,7 +70,7 @@
     </div>
 </section>
 <!----CONNECT--------->
-<section class="my-10 mx-4 bg-zinc-200 py-4">
+<section class="container form-wrapper my-10 mx-4 bg-zinc-200 py-4">
     <h2 class="block px-4 text-6xl">Connect</h2>
     <div>
         <label for="name">Name</label>
@@ -78,10 +80,31 @@
         <label for="message">Message</label>
         <textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
     </div>
+    <div class="block p-4">
+        <label for="name" class="p-4">Name</label>
+        <input type="text" name="name" id="name">
+    </div>
+    <div class="block p-6">
+        <label for="email" class="p-4">Email</label>
+        <input type="text" name="email" id="email">
+    </div>
+    <div class="block p-4">
+        <label for="message" class="p-2">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="Let's connect!" class="p-4"></textarea>
+    </div>
+    <button type="submit" class="p-6">Submit</button>
 </section>
 <!----FOOTER---------->
-<footer>
-
+<footer class="container justify-center">
+    <div>
+        <p class="text-xs text-center">
+            This website was made by me using DaisyUI, Tailwind, and the skills I learned at Deep Dive. Learn more about me and my experience:
+        </p>
+    </div>
+    <div class="display flex gap-4">
+        <a href="https://github.com/28Nic"><img src="githubicon.png" alt="the github logo"></a>
+        <a href="https://www.linkedin.com/in/nic-crow/"><img src="linkedinlogo.png" alt="the linkedin logo"></a>
+    </div>
 </footer>
 </body>
 </html>
