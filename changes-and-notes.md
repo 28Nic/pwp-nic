@@ -31,6 +31,12 @@
 - Submit button styling
 - footer content center
 
+## What's Not Working in Tailwind config:
+- padding past 6
+- text-align and justify-content
+- mx/margins
+- border
+
 ## Working On Now
 - Footer
 
