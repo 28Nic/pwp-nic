@@ -23,19 +23,13 @@
 ## Fixes
 -  Hamburger icon to right on nav bar
 - Background opacity only
-- Can you add outline to text? Dropshadow not working?
-- Get header on separate line than paragraph
-- fix flex 
-- figure out how to resize image
+-  --> Just edit an image to have some opacity instead (per Marty)
+- fix flex
 - Line up connect
 - Submit button styling
-- footer content center
+- Resize Images for Projects
+- Resize footer images
 
-## What's Not Working in Tailwind config:
-- padding past 6
-- text-align and justify-content
-- mx/margins
-- border
 
 ## Working On Now
 - Footer
