@@ -30,6 +30,6 @@
 - footer content center
 
 ## Working On Now
-- Connect
+- Footer
 
 ## Notes
