@@ -2,6 +2,7 @@
 - Banner with image
 - About Me Section 
   - Image
+    - Take new image OR draw one? Still kind of want to...
   - Text
     - Copy for text
 - Lessons
@@ -13,6 +14,7 @@
 - Projects
   - Images
     - Figure out which images
+    - Identify if I need to take more
   - Hover
     - Copy for hover
 - Connect
