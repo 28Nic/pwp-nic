@@ -1,24 +1,16 @@
 ## To be Added
-- Banner with image
+- Banner image
 - About Me Section 
   - Image
-    - Take new image OR draw one? Still kind of want to...
   - Text
     - Copy for text
 - Lessons
-  - Container
-    - is this a background image?
-  - Text
-    - Copy for text
   - Javascript functionality
 - Projects
   - Images
-    - Figure out which images
-    - Identify if I need to take more
+    - Photos to be taken this weekend
   - Hover
     - Copy for hover
-- Connect
-- Footer
 
 ## Fixes
 -  Hamburger icon to right on nav bar
@@ -32,6 +24,6 @@
 
 
 ## Working On Now
-- Footer
+- Images and copy
 
 ## Notes
