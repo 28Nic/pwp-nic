@@ -21,7 +21,7 @@
 - Submit button styling
 - Resize Images for Projects
 - Resize footer images
-
+- h2 in banner, use flex to control horizontal overflow
 
 ## Working On Now
 - Images and copy
