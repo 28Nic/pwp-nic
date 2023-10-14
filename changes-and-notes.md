@@ -16,8 +16,6 @@
 -  Hamburger icon to right on nav bar
 - Background opacity only
 -  --> Just edit an image to have some opacity instead (per Marty)
-- fix flex
-- Line up connect
 - Submit button styling
 - Resize Images for Projects
 - Resize footer images
