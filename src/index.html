@@ -168,5 +168,30 @@
     </div>
 </footer>
 </body>
-<script src="script.js" type="module"></script>
+<script type="module">
+    // core version + navigation, pagination modules:
+    import Swiper from '/swiper';
+    import { Navigation} from '/swiper/modules';
+    // import Swiper and modules styles
+    import '/swiper/css';
+    import '/swiper/css/navigation';
+
+    // init Swiper:
+    const swiper = new Swiper('.swiper', {
+        // configure Swiper to use modules
+        modules: [Navigation],
+        breakpoints: {
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 0
+            }
+        },
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next'
+        },
+        slidesPerView: 1,
+        spaceBetween: 0
+    });
+</script>
 </html>
