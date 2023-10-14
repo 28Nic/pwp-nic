@@ -628,6 +628,30 @@ html {
   }
 }
 
+.carousel {
+  display: inline-flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel-item {
+  box-sizing: content-box;
+  display: flex;
+  flex: none;
+  scroll-snap-align: start;
+}
+
+.carousel-center .carousel-item {
+  scroll-snap-align: center;
+}
+
+.carousel-end .carousel-item {
+  scroll-snap-align: end;
+}
+
 .footer {
   display: grid;
   width: 100%;
@@ -736,6 +760,10 @@ html {
   100% {
     transform: scale(1);
   }
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
 }
 
 @keyframes checkmark {
@@ -938,16 +966,12 @@ html {
   }
 }
 
-.float-right {
-  float: right;
+.relative {
+  position: relative;
 }
 
 .m-4 {
   margin: 1rem;
-}
-
-.m-8 {
-  margin: 2rem;
 }
 
 .mx-4 {
@@ -955,24 +979,14 @@ html {
   margin-right: 1rem;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mx-80 {
-  margin-left: 20rem;
-  margin-right: 20rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .block {
@@ -989,6 +1003,10 @@ html {
 
 .hidden {
   display: none;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .grid-cols-3 {
@@ -1017,10 +1035,6 @@ html {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-12 {
-  gap: 3rem;
 }
 
 .gap-4 {
@@ -1125,6 +1139,11 @@ html {
   padding-right: 2rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1135,17 +1154,13 @@ html {
   padding-bottom: 1rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pr-2 {
-  padding-right: 0.5rem;
 }
 
 .pt-20 {
@@ -1179,21 +1194,6 @@ html {
   line-height: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1209,7 +1209,17 @@ html {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+#lessons .carousel-item {
+  min-width: 100%;
+  max-width: 100%;
+}
+
 @media (min-width: 768px) {
+  #lessons .carousel-item {
+    min-width: calc(25% - 2rem);
+    max-width: calc(25% - 2rem);
+  }
+
   .md\:block {
     display: block;
   }
@@ -1222,6 +1232,10 @@ html {
     flex-direction: row;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1231,6 +1245,11 @@ html {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1239,3 +1258,4 @@ html {
     padding-right: 2.5rem;
   }
 }
+

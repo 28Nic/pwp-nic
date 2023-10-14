@@ -9,7 +9,7 @@
 <body>
 <!-----NAV BAR------>
 <div>
-    <nav class="bg-secondary items-center flex justify-between p-4">
+    <nav class="bg-secondary items-center flex justify-end md:justify-start p-4">
         <button class="md:hidden justify-end">&#9776</button>
         <nav class="hidden md:block space-x-8 px-2">
             <a href="/">About</a>
@@ -26,48 +26,95 @@
     </div>
 </section>
 <!----ABOUT ME------->
-<section class="my-10 mx-4 bg-primary drop-shadow-md py-4">
-    <h2 class="block px-4 py-4 text-6xl">About Me</h2>
-    <div class="flex flex-wrap">
-    <p class="p-6 text-justify text-md">
+<section class="py-10 px-4">
+    <div class="bg-primary drop-shadow-md p-4">
+    <h2 class="block text-6xl">About Me</h2>
+    <div class="flex flex-col md:flex-row items-center">
+    <p class="text-justify text-md">
         I started knitting in December 2020 to keep busy and while my first couple attempts were hardly anything to write home about, I kept at it. If I could say one thing I’m most proud of about my knitting, maybe even about my life, it’s that I kept at it. Projects I was once intimidated by are now staples in my wardrobe and my discovered love of knitting has demonstrated to me how capable I am of learning any new skill (we’ll see how I feel about that whenever I’m brave enough to try brioche). Lately I’ve been learning to sew and paint as well as code, which is how I made this website! Every new skill opens my eyes to a new perspective and I hope I never stop finding joy in learning.<br><br>
         Besides fiber arts, I love getting outdoors, reading, and playing video games. I don’t have a favorite food, but I strongly believe dinner should always end with a little something sweet. My personal philosophy is that life is only as beautiful as the people in it. Like Aunt May says, when you help someone, you help everyone.
     </p>
-    <img src="https://placehold.co/200x250/purple/white" alt="purple placeholder box with white text of dimensions" class="float-right p-4">
+    <img src="https://placehold.co/200x250/purple/white" alt="purple placeholder box with white text of dimensions" class="p-4">
+    </div>
     </div>
 </section>
 <!----LESSONS--------->
-<section>
+<section id="lessons">
     <div class="my-10 mx-4">
         <h2 class="py-4 text-6xl">Lessons</h2>
     </div>
-    <div class="flex flex-col md:flex-row gap-12 m-8 drop-shadow-md">
-        <div class="bg-secondary px-14 py-14 text-justify">
-            <p>
-                The time it takes to care for something adds to its value, not diminishes it. Hand wash your knits!
-            </p>
-        </div>
-        <div class="bg-secondary px-14 py-14 text-justify">
-            <p>
-                Life is full of mistakes, you’re not less valuable for making them. The same goes for your knitting. Just learn from your mistakes as much as you can.
-            </p>
-        </div>
-        <div class="bg-secondary px-14 py-14 text-justify">
-            <p>
-                More often than not, that big scary thing you didn’t think you could do wasn’t so scary after all
-            </p>
-        </div>
-        <div class="bg-violet-200 px-14 py-14 text-justify">
-            <p>
-                If something isn’t working or you’re not happy with what’s going on, you can always go back and fix it.
-            </p>
+    <div class="p-4">
+        <div class="swiper w-full">
+            <div class="swiper-wrapper">
+                <div id="slide1" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            The time it takes to care for something adds to its value, not diminishes it. Hand wash your
+                            knits!
+                        </p>
+                    </div>
+                </div>
+                <div id="slide2" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            Life is full of mistakes, you’re not less valuable for making them. The same goes for your
+                            knitting. Just learn from your mistakes as much as you can.
+                        </p>
+                    </div>
+                </div>
+                <div id="slide3" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            More often than not, that big scary thing you didn’t think you could do wasn’t so scary
+                            after all
+                        </p>
+                    </div>
+                </div>
+                <div id="slide4" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            If something isn’t working or you’re not happy with what’s going on, you can always go back
+                            and fix it.
+                        </p>
+                    </div>
+                </div>
+                <div id="slide5" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            you sir are a fish
+                        </p>
+                    </div>
+                </div>
+                <div id="slide6" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            henlo henlo henlo
+                        </p>
+                    </div>
+                </div>
+                <div id="slide7" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            this is another one (like dj khaled)
+                        </p>
+                    </div>
+                </div>
+                <div id="slide8" class="swiper-slide relative px-0 md:px-4">
+                    <div class="bg-secondary px-14 py-14 text-justify drop-shadow-md w-full">
+                        <p>
+                            this is another one (like dj khaled)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
         </div>
     </div>
 </section>
 <!----PROJECTS-------->
 <div class="flex justify-between">
     <h2 class="py-4 text-6xl m-4">Projects</h2>
-    <button onclick="" class="px-4 py-4 bg-accent border-accent-focus border-2">⇒</button>
+
 </div>
 <section class="container grid grid-cols-3 gap-4 align-center justify-center place-items-center mx-auto drop-shadow-md">
     <div>
@@ -121,4 +168,5 @@
     </div>
 </footer>
 </body>
+<script src="script.js" type="module"></script>
 </html>
