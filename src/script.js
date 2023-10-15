@@ -1,9 +1,9 @@
 // core version + navigation, pagination modules:
-import Swiper from 'node_modules/swiper';
-import { Navigation} from 'node_modules/swiper/modules';
+import Swiper from '/swiper';
+import { Navigation} from '/swiper/modules';
 // import Swiper and modules styles
-import 'node_modules/swiper/css';
-import 'node_modules/swiper/css/navigation';
+import '/swiper/css';
+import '/swiper/css/navigation';
 
 // init Swiper:
 const swiper = new Swiper('.swiper', {
