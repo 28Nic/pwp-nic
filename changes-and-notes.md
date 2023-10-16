@@ -1,5 +1,5 @@
 ## To be Added
-- Nav bar links
+- Mobile hamburger drop down
 - Banner image
 - About Me Section 
   - Image
@@ -16,6 +16,6 @@
 ## Working On Now
 - hover copy
 - all images
-- nav bar links
+- mobile dropdown menu
 
 ## Notes
