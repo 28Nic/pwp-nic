@@ -10,7 +10,15 @@
 <!-----NAV BAR------>
 <div>
     <nav class="bg-secondary items-center flex justify-end md:justify-start p-4">
-        <button class="md:hidden justify-end">&#9776</button>
+        <details class="dropdown dropdown-end">
+        <summary tabindex="0" class="btn bg-opacity-80 bg-secondary border-secondary border-2 md:hidden justify-end text-accent-focus">&#9776</summary>
+            <ul tabindex="0" class="p-2 shadow menu dropdown-content z-[1] bg-accent rounded-box w-52">
+                <li><a href="#aboutNic">About Me</a></li>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
+        </details>
         <nav class="hidden md:block space-x-8 px-2">
             <a href="#aboutNic">About</a>
             <a href="#lessons">Lessons</a>
@@ -49,7 +57,7 @@
         <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative px-0 md:px-4">
                     <div class="bg-secondary p-12 text-justify drop-shadow-md w-full">
-                        <p>
+                        <p class="align-center ">
                             The time it takes to care for something adds to its value, not diminishes it. Hand wash your
                             knits!
                         </p>
@@ -108,7 +116,7 @@
                     </div>
                 </div>
         </div>
-        <button class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-accent-focus/5 duration-300 absolute drop-shadow-md rounded-md p-4 bg-accent border-accent-focus border-2" id="lessonsBtn">=></button>
+        <button class="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-accent-focus/5 duration-300 absolute drop-shadow-md rounded-md p-4 bg-accent border-accent-focus border-2 text-accent-content" id="lessonsBtn">➥</button>
     </div>
 </section>
 <!----PROJECTS-------->
@@ -168,7 +176,7 @@
 <footer class="mb-2">
     <div>
         <p class="align-center text-xs text-center mb-2">
-            This website was made by me using DaisyUI, Tailwind, and the skills I learned at Deep Dive. Learn more about me and my experience:
+            This website was made by me using DaisyUI and custom code with Tailwind. Learn more about me and my experience:
         </p>
     </div>
     <div class="display flex justify-center gap-6">
