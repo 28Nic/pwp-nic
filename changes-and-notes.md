@@ -6,13 +6,11 @@
 - Projects
   - Images
     - Photos to be taken this weekend/week
-  - Hover
 
 ## Fixes
 - Resize footer images
 
 ## Working On Now
-- hover copy
 - all images
 
 ## Notes
