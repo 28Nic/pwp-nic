@@ -8,9 +8,9 @@
     - Photos to be taken this weekend/week
 
 ## Fixes
-- Resize footer images
 
 ## Working On Now
-- all images
+- adding about me and final project image
+- adding personal banner image
 
 ## Notes
