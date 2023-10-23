@@ -3,8 +3,6 @@
 ## Fixes
 
 ## Working On Now
-- add about me image
-- add opacity to banner image
-- hover
 
 ## Notes
+Pretty cool first website, Nic! :) 

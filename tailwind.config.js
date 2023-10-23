@@ -30,7 +30,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        yarn: "url(https://photos.app.goo.gl/2hTP8AQLxdEpcmjaA)",
+        yarn: "url(https://live.staticflickr.com/65535/53278808120_170196a03d_o.png)",
       }
     },
   },
